@@ -41,7 +41,7 @@ Print $\texttt{Hello, World!}$ to stdout.
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-19T17:53:20.498Z  
+**Submitted:** 2026-09-19T18:38:37.141Z  
 
 ```cpp
 #include <iostream>
