@@ -4,27 +4,46 @@
 
 ## Problem
 
-_Description not available._
+### Addition of Variables
+
+Listen
+
+Write a program which does the following
+
+- Declare two integer variables a and b
+- Assign the value 23 to a and 20 to b
+- Output the sum of a and b to the console
+
+To sum  **a**  and  **b**, you can print  **a + b**, like we did with numbers previously.
+
+ **Expected output** 
+
+```
+43
+
+```
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-20T05:11:02.472Z  
+**Submitted:** 2026-09-20T05:18:00.903Z  
 
 ```c_cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-    // Fix the variable name to make the code work
-
-    int first_number = 8;
-    cout<<first_number<<endl;
-
+    // Assign the value 23 to a
+    int a = 23;
+    
+    // Assign the value 20 to b
+    int b = 20;
+    
+    // Output the sum of a and b
+    cout << a + b;
 }
-
 ```
 
 ---
