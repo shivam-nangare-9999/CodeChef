@@ -4,18 +4,16 @@
 
 ## Problem
 
-### MCQ on printing text
-
-Which line of code will output the text `Hi`?
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-20T05:42:23.607Z  
+**Submitted:** 2026-09-20T05:42:13.519Z  
 
-```cpp
+```js
 //Replace first __ with 21 and second __ with 40
 
 console.log(21 + 40);
