@@ -1,0 +1,10 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+     double temprature = 25.5;
+     double kelvin = temprature + 273;
+     cout<<"Celsius - "<< temprature << endl;
+     cout<<"kelvin - "<<temprature + 273<<endl;
+}
