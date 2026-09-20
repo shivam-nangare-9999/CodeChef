@@ -4,61 +4,65 @@
 
 ## Problem
 
-### Declaring a variable
+### Properties of Variables
 
 Listen
 
-When we declare a variable, we should also specify what type of variable it is. This is known as data type, basically meaning what type of data we are going to store in a variable.
+We learned that variable is a labelled box which can store many different types of values. You can also change the value of a variable in your code.
 
-Here are all the major data types and what they store in C++:
-
-Data Type	Description	Range(of values they can store)	Size(in Bytes)
-int	Stores integers	-2,147,483,648 to 2,147,483,647	4
-long long	Stores large integers	-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807	8
-float	Stores decimal numbers	1.2e-38 to 3.4e38	4
-double	Stores large decimal numbers	2.3e-308 to 1.7e308	8
-char	Stores single character	-128 to 127	1
-bool	Stores `true` or `false`	`true` or `false`	1
-
- **Example declarations:** 
+For example
 
 ```
-   int num = 100000;
-   long long large_num = 100000000000000;
-   float pi = 3.14;
-   double euler_number = 2.718281828459045;
-   char c = 'A';
-   bool check = true;
+int age = 25;
+cout << age << endl;
+
+// Update age
+age = 26 ;
+cout << age << endl;
 
 ```
 
- **Note:**  In computer memory, a `bit` is the smallest unit of data, representing a binary digit with values $0$ or $1$, whereas a `byte` consists of $8$ bits and is used to represent and store data in memory.
+The above code will output
+
+```
+25
+26
+
+```
+
+We are going to use variables all the time in the coming lessons. So let's learn a few more stuff about them.
+
+Rules for C++ variable names:
+
+- A variable name can only contain alphabets, numbers and underscores (ie. A-Z, a-z, 0-9, and _).
+- A variable name cannot start with a number.
+- A variable name cannot have spaces in between.
+- Variable names are case-sensitive (age, Age and AGE are three different variables).
+- Variable names cannot be any of the reserved keywords in C++ (e.g., int, float, while, class, return, etc.). These keywords have special meanings in the language and are used to define the syntax and structure of C++ programs.
+
+Be sure to follow these rules when creating a variable to not get errors.
 
 ### Task
 
-Write a program which does the following:
-
-- Create an integer variable named number.
-- Assign the value 19 to number.
-- Output the value of number.
+There is some code written in the editor to print the number 8. But the variable name is not following the rule. Can you spot the mistake and fix it?
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-20T05:10:43.498Z  
+**Submitted:** 2026-09-20T05:10:58.705Z  
 
 ```c_cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-    // Declare a variable
-    int number = 19;
-    
-    // Print the variable
-    cout << number ;
+    // Fix the variable name to make the code work
+
+    int first_number = 8;
+    cout<<first_number<<endl;
+
 }
 
 ```
