@@ -4,16 +4,18 @@
 
 ## Problem
 
-_Description not available._
+### MCQ on printing sum
+
+Which lines of code will output the sum of 7 and 19?
 
 ## Solution
 
-**Language:** default  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-20T05:42:26.826Z  
+**Submitted:** 2026-09-20T05:42:55.539Z  
 
-```default
+```cpp
 //Replace first __ with 21 and second __ with 40
 
 console.log(21 + 40);
