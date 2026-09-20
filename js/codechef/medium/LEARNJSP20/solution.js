@@ -1,4 +1,5 @@
-// Solution
+// Changed the variable 1st_name to firstName
 
-var number = 20
-console.log(number - 1)
+var firstName = "Code";
+var lastName = "Chef";
+console.log(firstName, lastName);
