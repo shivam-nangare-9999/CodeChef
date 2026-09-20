@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int s = 14;
+    
+    // add variable area here
+    int area = 14 * 14;
+    
+    int cost = area * 7;
+    
+    cout << area << endl;
+    cout << "$" << cost;
+}
