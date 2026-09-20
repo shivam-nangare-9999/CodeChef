@@ -27,22 +27,24 @@ int main() {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-20T05:17:02.443Z  
+**Submitted:** 2026-09-20T05:22:00.540Z  
 
 ```cpp
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int s = 14;
-    
-    // add variable area here
-    int area = 14 * 14;
-    
-    int cost = area * 7;
-    
-    cout << area << endl;
-    cout << "$" << cost;
+
+  int a = -50;
+  int b = 40;
+  int sum = a + b;
+  int product = a * b;
+  int quotient = a / b;
+  cout << sum << endl;
+  cout << product << endl;
+  cout << quotient;
+  
+  
 }
 ```
 
