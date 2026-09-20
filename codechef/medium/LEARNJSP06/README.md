@@ -13,7 +13,7 @@ Which lines of code will output the sum of 7 and 19?
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-20T05:43:00.538Z  
+**Submitted:** 2026-09-20T05:43:07.534Z  
 
 ```cpp
 //Replace first __ with 21 and second __ with 40
