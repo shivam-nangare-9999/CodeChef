@@ -4,72 +4,25 @@
 
 ## Problem
 
-### Calculator
-
-Listen
-
-Complete the given program to create a simple calculator that performs addition and subtraction.
-
-#### Steps:
-- Declare 2 integer variables a and b.
-- Initialise the variables a and b with the two user inputs.
-- Declare an integer variable sum - and store the value of addition of a and b to it.
-- Declare an integer variable diff - and store the value of subtraction of a and b to it.
-- Print sum and diff to the console on separate lines with the same message as given in sample output.
-### Sample 1:
-Input
-Output
-
-```
-35
-23
-```
-
-```
-Sum is: 58
-Difference is: 12
-```
-
-### Sample 2:
-Input
-Output
-
-```
-8
-2
-```
-
-```
-Sum is: 10
-Difference is: 6
-```
+_Description not available._
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:56:26.851Z  
+**Submitted:** 2026-09-23T15:56:07.880Z  
 
 ```c_cpp
-#include <iostream>
+#include <bits/stdc++.h>
+
 using namespace std;
 
 int main() {
-
-  int a, b;
-  int sum;
-  int diff;
-  cin >> a;
-  cin >> b;
-  sum = a + b;
-  diff = a - b;
-  cout << "Sum is: " << sum << endl;     //dont forget to print diff on a separate line
-  cout << "Difference is: "<< diff;
-
-  
+    int a, b, c;
+    cin >> a >> b >> c;
+    cout << a + b + c << endl;
 }
-
 ```
 
 ---
