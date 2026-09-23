@@ -4,16 +4,33 @@
 
 ## Problem
 
-_Description not available._
+### Multiple Choice Question
+
+What will be the output of this code, if the a = 5 and b = 9 based on user input?
+
+```
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    int a, b;
+    cin >> a >> b;
+    cout << a << b << a + b;
+    
+    return 0;
+}
+
+```
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:56:29.879Z  
+**Submitted:** 2026-09-23T15:56:58.964Z  
 
-```c_cpp
+```cpp
 #include <iostream>
 using namespace std;
 
