@@ -4,16 +4,37 @@
 
 ## Problem
 
-_Description not available._
+### Multiple Choice Question
+
+What will be the output of this code,
+
+```
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+  string s;
+  cin >> s; 
+  cout << "Your name is: " << s;
+}
+
+```
+
+if the user input is
+
+```
+Chef
+
+```
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:30:22.220Z  
+**Submitted:** 2026-09-23T15:30:39.926Z  
 
-```c_cpp
+```cpp
 #include <iostream>
 using namespace std;
 
