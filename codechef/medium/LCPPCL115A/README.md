@@ -43,7 +43,7 @@ You have to print numbers from 5 to 20 in separate lines using a while loop.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-29T16:41:00.882Z  
+**Submitted:** 2026-09-29T16:41:14.914Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -54,7 +54,7 @@ int main() {
 
     while (i <= 20) { // Condition statement
         cout << i << endl;
-        i = i + 1; //Update statement
+        i++; //Update statement
     }
 }
 ```
