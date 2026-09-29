@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int i = 5; //Initialization statement
+
+    while (i <= 20) { // Condition statement
+        cout << i << endl;
+        i++; //Update statement
+    }
+}
