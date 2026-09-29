@@ -6,6 +6,6 @@ int main() {
 
     while (i <= 20) { // Condition statement
         cout << i << endl;
-        i = i + 1; //Update statement
+        i++; //Update statement
     }
 }
