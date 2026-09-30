@@ -29,7 +29,7 @@ int main() {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T16:47:43.470Z  
+**Submitted:** 2026-09-30T16:47:57.734Z  
 
 ```cpp
 #include <bits/stdc++.h>
